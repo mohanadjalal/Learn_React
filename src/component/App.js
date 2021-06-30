@@ -4,8 +4,10 @@ import Team from './Team'
 class App extends Component{
  
   render(){
+    console.log("hahahha")
     return(
       <div className = "container bg-dark" >
+        
         <Header />
         <Team /> 
 
